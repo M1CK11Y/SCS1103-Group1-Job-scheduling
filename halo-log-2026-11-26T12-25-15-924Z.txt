@@ -1,0 +1,287 @@
+Halo in the browser: log of 2026-11-26T12:25:15.920Z
+{
+ "session": "3e5611f1f842",
+ "build": "2ee459d4",
+ "page": "/",
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 OPR/140.0.0.0 (Edition ms_store_gx)",
+ "deviceMemoryGB": 8,
+ "threads": 4,
+ "uptimeSeconds": 223,
+ "visible": true,
+ "jsHeapMB": 7,
+ "game": {
+  "frames": 2398,
+  "exited": false,
+  "exitCode": 0,
+  "contextLost": false,
+  "memoryNeededMB": 0,
+  "heapMB": 2176,
+  "heapMaximumMB": 4096,
+  "mallocUsedMB": 801,
+  "mallocFreeMB": 33
+ }
+}
+
+---- what the page saw
+    3.6 network idle
+   53.5 hidden
+   93.4 visible
+  115.9 game main-menu
+  215.6 hang: The game's frames stopped for 30 s
+
+---- the game's debug.txt (its end)
+
+
+11.26.26 14:21:37  halobeta xbox 01.01.14.2342(CACHE) ----------------------------------------------
+11.26.26 14:21:37  reference function: _write_to_error_file
+11.26.26 14:21:37  reference address: 8f
+11.26.26 14:21:37  Couldn't read map file 'd:\cachebeta.map'
+11.26.26 14:21:42  xbox ethernet link is connected at 100 Mbps in full-duplex mode
+11.26.26 14:23:28  starting precaching of map 'ui'
+11.26.26 14:23:28  the old loading progress screen has been replaced with glowy halo gravy
+11.26.26 14:23:29  structure culling: 0 buckets (surface lists, 0 split) for 0 surfaces, 32 bytes, 1 ms, 0 of 0 triangles disagree with their vertex normals
+11.26.26 14:23:29  unable to locate any movie for movie #3 (checked for all possible language variations)
+11.26.26 14:23:29  ### ERROR no DirectSound for bink
+11.26.26 14:23:29  ### ERROR failed to open bink file ''
+11.26.26 14:23:29  begining filesystem checks & saved game file enumeration...
+11.26.26 14:23:29  starting main menu music
+11.26.26 14:23:29  local player 0, weapon (0x0), deleted unexpectedly
+11.26.26 14:23:52  checksum failed on persistent storage
+11.26.26 14:23:54  last line repeated 1 times
+11.26.26 14:23:54  event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+11.26.26 14:23:57  checksum failed on persistent storage
+11.26.26 14:23:59  last line repeated 1 times
+11.26.26 14:23:59  event handler function 333 of pc\main_menu\campaign_select\load_level_select_list failed
+11.26.26 14:24:01  checksum failed on persistent storage
+11.26.26 14:24:02  last line repeated 1 times
+11.26.26 14:24:02  file_read('z:\lastmpmp.txt') error 0x00000026
+11.26.26 14:24:02  failed to read from 'z:\lastmpmp.txt'
+11.26.26 14:24:09  stopping main menu music
+11.26.26 14:24:38  starting precaching of map 'b40'
+11.26.26 14:24:38  the old loading progress screen has been replaced with glowy halo gravy
+
+
+---- the game's log
+    3.9 web: the saves and settings are kept in the browser (OPFS), but for the map cache
+    3.9 web: the maps are read from the server as the game needs them
+    4.0 halo-linux: settings: /game/config.toml
+    4.0 halo-linux: anti-aliasing: off
+    4.0 halo-linux: screen: 852x480 drawn at 1376x774
+    4.0 halo-linux: data root: /game (the game's log: debug.txt there)
+    4.2 halo-linux: OpenGL OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) on WebKit WebGL
+    4.2 halo-linux: display: HDR off (SDR white 1.00, headroom 1.00), 8-bit window
+    4.2 halo-linux: OpenGL ES 3.0: copy image 0, border clamp 0, anisotropy 1, S3TC 1, sample counting 0, base vertex 0 (none), half float targets 1, parallel shader compile 1
+    4.3 
+    4.3 
+    4.3 halobeta xbox 01.01.14.2342(CACHE) ----------------------------------------------
+    4.3 reference function: _write_to_error_file
+    4.3 reference address: 8f
+    4.3 Couldn't read map file 'd:\cachebeta.map'
+    4.3 halo-linux: save root: /save
+    6.2 halo-linux: sound: stereo
+    8.8 xbox ethernet link is connected at 100 Mbps in full-duplex mode
+    8.8 halo-linux: Internet play: this machine is 32f82cab4a64; the page's links reach its peers
+  115.4 starting precaching of map 'ui'
+  115.4 the old loading progress screen has been replaced with glowy halo gravy
+  115.4 halo-linux: framebuffer 4113/4111 is incomplete
+  115.5 halo-linux: screen: 854x480 drawn at 1375x773
+  115.8 halo-linux: menus: 1138 widgets, 281 string lists and 100 bitmaps added to the map's 983 tags
+  115.8 halo-linux: high-res hud: 77 of 135 bitmaps in this map, 1 for some of their sprites (58 not in it)
+  115.8 structure culling: 0 buckets (surface lists, 0 split) for 0 surfaces, 32 bytes, 1 ms, 0 of 0 triangles disagree with their vertex normals
+  115.8 unable to locate any movie for movie #3 (checked for all possible language variations)
+  115.8 ### ERROR no DirectSound for bink
+  115.8 halo-linux: Bink video is not supported; skipping ""
+  115.8 ### ERROR failed to open bink file ''
+  115.8 begining filesystem checks & saved game file enumeration...
+  115.8 starting main menu music
+  115.9 halo-linux: model detail: stock
+  115.9 halo-linux: anisotropic filtering: 1x (the GPU's most 16x)
+  116.0 halo-linux: high-res text: ui\small_ui (capitals 10 units) drawn with Overpass-750.ttf, 98% wide
+  116.1 local player 0, weapon (0x0), deleted unexpectedly
+  136.8 halo-linux: screen: 852x480 drawn at 1920x1080
+  139.5 checksum failed on persistent storage
+  141.0 last line repeated 1 times
+  141.0 event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+  144.2 checksum failed on persistent storage
+  144.3 halo-linux: high-res text: ui\large_ui (capitals 13 units) drawn with Overpass-900.ttf, 98% wide
+  146.3 last line repeated 1 times
+  146.3 event handler function 333 of pc\main_menu\campaign_select\load_level_select_list failed
+  148.1 checksum failed on persistent storage
+  149.1 last line repeated 1 times
+  149.1 file_read('z:\lastmpmp.txt') error 0x00000026
+  149.1 failed to read from 'z:\lastmpmp.txt'
+  156.5 stopping main menu music
+  184.8 starting precaching of map 'b40'
+  184.8 the old loading progress screen has been replaced with glowy halo gravy
+
+---- the visit before this one (ENDED WITHOUT WARNING)
+{
+ "session": "f791fbc2ed5c",
+ "started": 1795305174909,
+ "lastSeen": 1795374928046,
+ "ended": null,
+ "build": "2ee459d4",
+ "page": "/",
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0 (Edition ms_store_gx)",
+ "deviceMemoryGB": 8,
+ "threads": 4,
+ "uptimeSeconds": 69753,
+ "visible": false,
+ "jsHeapMB": 9,
+ "game": {
+  "frames": 523767,
+  "exited": false,
+  "exitCode": 0,
+  "contextLost": false,
+  "memoryNeededMB": 0,
+  "heapMB": 2176,
+  "heapMaximumMB": 4096,
+  "mallocUsedMB": 837,
+  "mallocFreeMB": 25
+ },
+ "marks": [
+  "    7.3 network idle",
+  "   17.6 game main-menu",
+  "   40.5 hidden",
+  "   45.8 visible",
+  "  127.6 game other",
+  " 3013.6 hidden",
+  " 3015.0 visible",
+  " 3022.2 hidden",
+  "53613.9 visible",
+  "53622.3 hidden",
+  "53737.8 visible",
+  "53744.8 hidden"
+ ]
+}
+
+
+11.22.26 01:53:03  halobeta xbox 01.01.14.2342(CACHE) ----------------------------------------------
+11.22.26 01:53:03  reference function: _write_to_error_file
+11.22.26 01:53:03  reference address: 8f
+11.22.26 01:53:03  Couldn't read map file 'd:\cachebeta.map'
+11.22.26 01:53:07  xbox ethernet link is connected at 100 Mbps in full-duplex mode
+11.22.26 01:53:10  starting precaching of map 'ui'
+11.22.26 01:53:10  the old loading progress screen has been replaced with glowy halo gravy
+11.22.26 01:53:12  structure culling: 0 buckets (surface lists, 0 split) for 0 surfaces, 32 bytes, 0 ms, 0 of 0 triangles disagree with their vertex normals
+11.22.26 01:53:12  unable to locate any movie for movie #3 (checked for all possible language variations)
+11.22.26 01:53:12  ### ERROR no DirectSound for bink
+11.22.26 01:53:12  ### ERROR failed to open bink file ''
+11.22.26 01:53:12  begining filesystem checks & saved game file enumeration...
+11.22.26 01:53:12  starting main menu music
+11.22.26 01:53:14  local player 0, weapon (0x0), deleted unexpectedly
+11.22.26 01:53:54  checksum failed on persistent storage
+11.22.26 01:53:58  last line repeated 1 times
+11.22.26 01:53:58  event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+11.22.26 01:54:01  checksum failed on persistent storage
+11.22.26 01:54:01  event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+11.22.26 01:54:05  checksum failed on persistent storage
+11.22.26 01:54:18  last line repeated 4 times
+11.22.26 01:54:18  event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+11.22.26 01:54:21  checksum failed on persistent storage
+11.22.26 01:54:22  last line repeated 1 times
+11.22.26 01:54:22  event handler function 341 of pc\main_menu\campaign_select\load_level_select_list failed
+11.22.26 01:54:23  checksum failed on persistent storage
+11.22.26 01:54:25  last line repeated 1 times
+11.22.26 01:54:25  file_read('z:\lastmpmp.txt') error 0x00000026
+11.22.26 01:54:25  failed to read from 'z:\lastmpmp.txt'
+11.22.26 01:54:34  stopping main menu music
+11.22.26 01:54:37  starting precaching of map 'b40'
+11.22.26 01:54:37  the old loading progress screen has been replaced with glowy halo gravy
+11.22.26 01:55:02  structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 38 ms, 2 of 28242 triangles disagree with their vertex normals
+11.22.26 01:55:02  checksum failed on persistent storage
+11.22.26 01:55:02  structure culling: 1819 buckets (subclusters, 1523 split) for 12384 surfaces, 234708 bytes, 9 ms, 0 of 11170 triangles disagree with their vertex normals
+11.22.26 01:57:58  structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 49 ms, 2 of 28242 triangles disagree with their vertex normals
+11.22.26 02:02:51  the saved game is taken
+11.22.26 02:04:21  structure culling: 2756 buckets (subclusters, 2309 split) for 23722 surfaces, 397656 bytes, 22 ms, 0 of 22166 triangles disagree with their vertex normals
+11.22.26 02:10:20  structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 41 ms, 2 of 28242 triangles disagree with their vertex normals
+11.22.26 02:13:50  the saved game is taken
+11.22.26 02:13:50  structure culling: 2756 buckets (subclusters, 2309 split) for 23722 surfaces, 397656 bytes, 29 ms, 0 of 22166 triangles disagree with their vertex normals
+11.22.26 02:13:54  structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 35 ms, 2 of 28242 triangles disagree with their vertex normals
+11.22.26 02:25:13  the saved game is taken
+11.22.26 02:26:32  ### ERROR too many dynamic vertices requested from rasterizer
+11.22.26 02:26:32  build_sprite failed to allocate dynamic vertices
+11.22.26 02:26:37  ### ERROR a script tried to delete the player (or the horse he rode in on, or his six-shooter)
+11.22.26 02:30:57  structure culling: 4312 buckets (subclusters, 3486 split) for 29148 surfaces, 563800 bytes, 49 ms, 0 of 28878 triangles disagree with their vertex normals
+11.22.26 02:39:47  the saved game is taken
+
+    8.1 halo-linux: display: HDR off (SDR white 1.00, headroom 1.00), 8-bit window
+    8.1 halo-linux: OpenGL ES 3.0: copy image 0, border clamp 0, anisotropy 1, S3TC 1, sample counting 0, base vertex 0 (none), half float targets 1, parallel shader compile 1
+    8.3 
+    8.3 
+    8.3 halobeta xbox 01.01.14.2342(CACHE) ----------------------------------------------
+    8.3 reference function: _write_to_error_file
+    8.3 reference address: 8f
+    8.3 Couldn't read map file 'd:\cachebeta.map'
+    8.3 halo-linux: save root: /save
+   11.6 halo-linux: sound: stereo
+   12.8 xbox ethernet link is connected at 100 Mbps in full-duplex mode
+   12.8 halo-linux: Internet play: this machine is 569f7bc710ba; the page's links reach its peers
+   15.4 starting precaching of map 'ui'
+   15.4 the old loading progress screen has been replaced with glowy halo gravy
+   15.4 halo-linux: framebuffer 4113/4111 is incomplete
+   15.6 halo-linux: screen: 854x480 drawn at 1238x696
+   17.5 halo-linux: menus: 1138 widgets, 281 string lists and 100 bitmaps added to the map's 983 tags
+   17.5 halo-linux: high-res hud: 77 of 135 bitmaps in this map, 1 for some of their sprites (58 not in it)
+   17.5 structure culling: 0 buckets (surface lists, 0 split) for 0 surfaces, 32 bytes, 0 ms, 0 of 0 triangles disagree with their vertex normals
+   17.5 unable to locate any movie for movie #3 (checked for all possible language variations)
+   17.5 ### ERROR no DirectSound for bink
+   17.5 halo-linux: Bink video is not supported; skipping ""
+   17.5 ### ERROR failed to open bink file ''
+   17.5 begining filesystem checks & saved game file enumeration...
+   17.5 starting main menu music
+   17.6 halo-linux: model detail: stock
+   17.7 halo-linux: anisotropic filtering: 1x (the GPU's most 16x)
+   19.0 halo-linux: high-res text: ui\small_ui (capitals 10 units) drawn with Overpass-750.ttf, 98% wide
+   19.6 local player 0, weapon (0x0), deleted unexpectedly
+   45.9 halo-linux: screen: 852x480 drawn at 1376x774
+   46.1 halo-linux: screen: 852x480 drawn at 1239x697
+   48.9 halo-linux: screen: 918x480 drawn at 1920x1003
+   59.4 checksum failed on persistent storage
+   63.6 last line repeated 1 times
+   63.6 event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+   66.9 checksum failed on persistent storage
+   66.9 event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+   70.5 checksum failed on persistent storage
+   70.9 halo-linux: high-res text: ui\large_ui (capitals 13 units) drawn with Overpass-900.ttf, 98% wide
+   83.4 last line repeated 4 times
+   83.4 event handler function 330 of pc\main_menu\campaign_select\menu_item_continue failed
+   86.2 checksum failed on persistent storage
+   87.3 last line repeated 1 times
+   87.3 event handler function 341 of pc\main_menu\campaign_select\load_level_select_list failed
+   88.8 checksum failed on persistent storage
+   90.4 last line repeated 1 times
+   90.4 file_read('z:\lastmpmp.txt') error 0x00000026
+   90.4 failed to read from 'z:\lastmpmp.txt'
+   99.4 stopping main menu music
+  102.6 starting precaching of map 'b40'
+  102.6 the old loading progress screen has been replaced with glowy halo gravy
+  127.3 halo-linux: menus: the pause menu has SETTINGS
+  127.3 halo-linux: menus: 1138 widgets, 281 string lists and 100 bitmaps added to the map's 3647 tags
+  127.3 halo-linux: high-res hud: 75 of 135 bitmaps in this map, 1 for some of their sprites (60 not in it)
+  127.4 structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 38 ms, 2 of 28242 triangles disagree with their vertex normals
+  127.6 checksum failed on persistent storage
+  127.7 structure culling: 1819 buckets (subclusters, 1523 split) for 12384 surfaces, 234708 bytes, 9 ms, 0 of 11170 triangles disagree with their vertex normals
+  135.2 halo-linux: shadow maps: 128x128
+  303.4 structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 49 ms, 2 of 28242 triangles disagree with their vertex normals
+  596.4 the saved game is taken
+  686.2 structure culling: 2756 buckets (subclusters, 2309 split) for 23722 surfaces, 397656 bytes, 22 ms, 0 of 22166 triangles disagree with their vertex normals
+ 1045.2 structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 41 ms, 2 of 28242 triangles disagree with their vertex normals
+ 1255.6 the saved game is taken
+ 1255.8 structure culling: 2756 buckets (subclusters, 2309 split) for 23722 surfaces, 397656 bytes, 29 ms, 0 of 22166 triangles disagree with their vertex normals
+ 1259.4 structure culling: 4371 buckets (subclusters, 3537 split) for 27577 surfaces, 562292 bytes, 35 ms, 2 of 28242 triangles disagree with their vertex normals
+ 1939.1 the saved game is taken
+ 2017.8 ### ERROR too many dynamic vertices requested from rasterizer
+ 2017.8 build_sprite failed to allocate dynamic vertices
+ 2022.9 ### ERROR a script tried to delete the player (or the horse he rode in on, or his six-shooter)
+ 2282.8 structure culling: 4312 buckets (subclusters, 3486 split) for 29148 surfaces, 563800 bytes, 49 ms, 0 of 28878 triangles disagree with their vertex normals
+ 2812.8 the saved game is taken
+ 2890.9 halo-linux: screen: 852x480 drawn at 1239x697
+ 5261.5 halo-linux: display: showing a frame took 3.2 s in the graphics driver
+53680.5 halo-linux: display: showing a frame took 8.2 s in the graphics driver
+53748.6 halo-linux: display: showing a frame took 3.1 s in the graphics driver
+54200.1 halo-linux: display: showing a frame took 2.5 s in the graphics driver
+54227.3 halo-linux: display: showing a frame took 2.5 s in the graphics driver
+54399.5 halo-linux: display: showing a frame took 2.4 s in the graphics driver
+55107.1 halo-linux: display: showing a frame took 2.4 s in the graphics driver
+66084.2 halo-linux: display: showing a frame took 2.5 s in the graphics driver
